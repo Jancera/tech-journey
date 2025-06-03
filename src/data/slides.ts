@@ -39,7 +39,7 @@ export const slides = [
       points: [
         "Estudamos por conta própria, testamos, erramos, aprendemos.",
         "Começamos com projetos pequenos até entrar no mercado.",
-        "A tecnologia mudou nossas vidas — e pode mudar a de vocês também.",
+        "A tecnologia mudou nossas vidas e pode mudar a de vocês também.",
       ],
     },
     color: "from-blue-500 to-cyan-500",
@@ -78,6 +78,21 @@ export const slides = [
   },
   {
     id: 5,
+    title: "Inglês",
+    icon: MessageCircle,
+    content: {
+      emoji: "🌍",
+      subtitle: "Por que o inglês é fundamental na tech:",
+      points: [
+        "Documentações, tutoriais e comunidades são em inglês",
+        "Melhores oportunidades de trabalho e salários",
+        "Acesso a conteúdos mais atualizados e especializados",
+      ],
+    },
+    color: "from-blue-500 to-teal-500",
+  },
+  {
+    id: 6,
     title: "O que usamos no dia a dia",
     icon: Wrench,
     content: {
@@ -92,7 +107,7 @@ export const slides = [
     color: "from-indigo-500 to-purple-500",
   },
   {
-    id: 6,
+    id: 7,
     title: "Como nasce um projeto real",
     icon: Rocket,
     content: {
@@ -107,7 +122,7 @@ export const slides = [
     color: "from-teal-500 to-blue-500",
   },
   {
-    id: 7,
+    id: 8,
     title: "Realidades do dia a dia",
     icon: Eye,
     content: {
@@ -122,7 +137,7 @@ export const slides = [
     color: "from-yellow-500 to-orange-500",
   },
   {
-    id: 8,
+    id: 9,
     title: "Quer começar com programação?",
     icon: Code,
     content: {
@@ -137,7 +152,7 @@ export const slides = [
     color: "from-pink-500 to-rose-500",
   },
   {
-    id: 9,
+    id: 10,
     title: "O que é UI/UX?",
     icon: Palette,
     content: {
@@ -153,7 +168,7 @@ export const slides = [
     section: "🎨 Parte 2 – Design de UI/UX",
   },
   {
-    id: 10,
+    id: 11,
     title: "Por que design importa?",
     icon: Smartphone,
     content: {
@@ -168,7 +183,7 @@ export const slides = [
     color: "from-emerald-500 to-teal-500",
   },
   {
-    id: 11,
+    id: 12,
     title: "Como um designer trabalha",
     icon: Briefcase,
     content: {
@@ -183,7 +198,7 @@ export const slides = [
     color: "from-cyan-500 to-blue-500",
   },
   {
-    id: 12,
+    id: 13,
     title: "Boas práticas no design",
     icon: Star,
     content: {
@@ -198,7 +213,7 @@ export const slides = [
     color: "from-amber-500 to-orange-500",
   },
   {
-    id: 13,
+    id: 14,
     title: "Quer começar com design?",
     icon: Target,
     content: {
@@ -213,7 +228,7 @@ export const slides = [
     color: "from-red-500 to-pink-500",
   },
   {
-    id: 14,
+    id: 15,
     title: "Como é trabalhar numa empresa tech",
     icon: Users,
     content: {
@@ -229,7 +244,7 @@ export const slides = [
     section: "💼 Parte 3 – Carreira e mercado",
   },
   {
-    id: 15,
+    id: 16,
     title: "Primeiros passos no mercado",
     icon: Rocket,
     content: {
@@ -244,7 +259,7 @@ export const slides = [
     color: "from-green-500 to-cyan-500",
   },
   {
-    id: 16,
+    id: 17,
     title: "O que buscamos em quem está começando",
     icon: Eye,
     content: {
@@ -259,7 +274,22 @@ export const slides = [
     color: "from-purple-500 to-indigo-500",
   },
   {
-    id: 17,
+    id: 18,
+    title: "Empreender",
+    icon: Lightbulb,
+    content: {
+      emoji: "💡",
+      subtitle: "Empreendedorismo na área tech:",
+      points: [
+        "Criar sua própria empresa ou produto digital",
+        "Identificar problemas e criar soluções inovadoras",
+        "Combinar conhecimento técnico com visão de negócio",
+      ],
+    },
+    color: "from-emerald-500 to-green-500",
+  },
+  {
+    id: 19,
     title: "Pra fechar com chave de ouro",
     icon: Star,
     content: {
@@ -268,14 +298,14 @@ export const slides = [
       points: [
         "Aprender tecnologia é acessível e transformador",
         "Cada caminho é único: encontre o seu",
-        "Recursos gratuitos: Alura Start, FreeCodeCamp, Comunidades Discord/Telegram",
+        "Recursos gratuitos: Youtube, FreeCodeCamp, Comunidades Discord/Telegram",
       ],
     },
     color: "from-yellow-500 to-red-500",
     section: "🎤 Encerramento",
   },
   {
-    id: 18,
+    id: 20,
     title: "Perguntas e bate-papo",
     icon: MessageCircle,
     content: {
@@ -284,7 +314,7 @@ export const slides = [
       points: [
         "Quer saber por onde começar?",
         "Dúvidas sobre carreira ou ferramentas?",
-        "Estamos aqui para trocar ideia!",
+        "Estamos aqui para te ajudar!",
       ],
     },
     color: "from-pink-500 to-purple-500",

@@ -136,14 +136,6 @@ const PresentationModal: React.FC<PresentationModalProps> = ({
                         >
                           {slide.title}
                         </motion.h1>
-                        <motion.span
-                          initial={{ opacity: 0, scale: 0 }}
-                          animate={{ opacity: 1, scale: 1 }}
-                          transition={{ delay: 0.4 }}
-                          className="text-5xl md:text-7xl lg:text-9xl"
-                        >
-                          {slide.content.emoji}
-                        </motion.span>
                       </div>
                     </motion.div>
 

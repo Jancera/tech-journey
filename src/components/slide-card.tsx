@@ -72,14 +72,6 @@ const SlideCard: React.FC<SlideCardProps> = ({
               >
                 {slide.title}
               </motion.h2>
-              <motion.span
-                initial={{ opacity: 0, x: -30 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.4 }}
-                className="text-4xl md:text-5xl lg:text-6xl"
-              >
-                {slide.content.emoji}
-              </motion.span>
             </div>
           </motion.div>
 
