@@ -41,7 +41,7 @@ const SlideCard: React.FC<SlideCardProps> = ({
       }}
       className="w-full max-w-4xl"
     >
-      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-lg border border-white/20 p-8 md:p-12">
+      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-lg border border-white/20 p-8 md:p-12 pb-14">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className={`w-full h-full bg-gradient-to-br ${slide.color}`} />
