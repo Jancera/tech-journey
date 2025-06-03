@@ -118,16 +118,6 @@ const SlideCard: React.FC<SlideCardProps> = ({
               </motion.div>
             ))}
           </motion.div>
-
-          {/* Decorative Elements */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 1, duration: 0.8 }}
-            className={`absolute top-4 right-4 "text-6xl" opacity-20 `}
-          >
-            {slide.content.emoji}
-          </motion.div>
         </div>
 
         {/* Presentation Mode Button - Moved to bottom right */}
